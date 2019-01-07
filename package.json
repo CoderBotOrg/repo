@@ -15,7 +15,7 @@
     "serve-prod": "npx run-s build-prod serve-prod-server",
     "serve-prod-server": "npx ws -p 8080 -d dist -z",
     "deploy": "npx run-s build-prod deploy-gh-pages",
-    "deploy-gh-pages": "npx gh-pages -d dist -b build"
+    "deploy-gh-pages": "npx gh-pages -d dist -b master"
   },
   "dependencies": {
     "element-ui": "^2.3.4",
