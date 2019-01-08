@@ -6,20 +6,63 @@
                 <div class="grid-content"></div>
             </el-col>
             <el-col :xs="{span:24}" :span="16">
-                <div class="grid-content bg-purple-light">
-                    <el-table :data="tableData" style="width: 100%">
+                <div class="grid-content">
+                    <h4>SD Card Images</h4>
+                    <el-table :data="images" style="width: 100%">
                         <el-table-column type="expand">
                             <template slot-scope="props">
-                                <p>Address: {{ props.row.address }}</p>
+                                Includes: {{ props.row.details }}
                             </template>
                         </el-table-column>
                         <el-table-column prop="date" label="Data">
                         </el-table-column>
                         <el-table-column prop="name" label="Nome">
                         </el-table-column>
-                        <el-table-column prop="address" label="Download">
+                        <el-table-column prop="fileName" label="File">
+                        </el-table-column>
+                        <el-table-column prop="download" label="Download">
                             <template slot-scope="scope">
-                                <a :href="scope.row.address" class="el-icon-download" style="font-size:32px"></a>
+                                <a :href="scope.row.downloadUrl" target="_blank" class="el-icon-download" style="font-size:32px"></a>
+                            </template>
+                        </el-table-column>
+                    </el-table>
+                    <br><br>
+                    <h4>Update Packages</h4>
+                    <el-table :data="updatePackages" style="width: 100%">
+                        <el-table-column type="expand">
+                            <template slot-scope="props">
+                                {{ props.row.details }}
+                            </template>
+                        </el-table-column>
+                        <el-table-column prop="date" label="Data">
+                        </el-table-column>
+                        <el-table-column prop="name" label="Nome">
+                        </el-table-column>
+                        <el-table-column prop="fileName" label="File">
+                        </el-table-column>
+                        <el-table-column prop="download" label="Download">
+                            <template slot-scope="scope">
+                                <a :href="scope.row.downloadUrl" target="_blank" class="el-icon-download" style="font-size:32px"></a>
+                            </template>
+                        </el-table-column>
+                    </el-table>
+                    <br><br>
+                    <h4>Miscellanea</h4>
+                    <el-table :data="misc" style="width: 100%">
+                        <el-table-column type="expand">
+                            <template slot-scope="props">
+                                {{ props.row.details }}
+                            </template>
+                        </el-table-column>
+                        <el-table-column prop="date" label="Data">
+                        </el-table-column>
+                        <el-table-column prop="name" label="Nome">
+                        </el-table-column>
+                        <el-table-column prop="fileName" label="File">
+                        </el-table-column>
+                        <el-table-column prop="download" label="Download">
+                            <template slot-scope="scope">
+                                <a :href="scope.row.downloadUrl" target="_blank" class="el-icon-download" style="font-size:32px"></a>
                             </template>
                         </el-table-column>
                     </el-table>
@@ -37,23 +80,28 @@
 export default {
     data() {
         return {
-            tableData: [{
-                date: '2016-05-03',
-                name: 'Tom',
-                address: 'No. 189, Grove St, Los Angeles'
-            }, {
-                date: '2016-05-02',
-                name: 'Tom',
-                address: 'No. 189, Grove St, Los Angeles'
-            }, {
-                date: '2016-05-04',
-                name: 'Tom',
-                address: 'No. 189, Grove St, Los Angeles'
-            }, {
-                date: '2016-05-01',
-                name: 'Tom',
-                address: 'No. 189, Grove St, Los Angeles'
-            }]
+            misc: [{
+                date: '2019-1-8',
+                name: 'AR program',
+                fileName: 'program_demo_ar.json',
+                downloadUrl: 'https://drive.google.com/open?id=1V3jsb6fR3ReF2SH_G0UieWPrBf_T8QoW',
+                details: 'This file must be imported from the CoderBot software. Download this file, then on CoderBot: Program -> Import and select the downloaded file.'
+            },{
+                date: '2019-1-8',
+                name: 'Printable AR Tags',
+                fileName: 'AR Tags',
+                downloadUrl: 'https://docs.google.com/presentation/d/19ihXcSqUKD1YsvXHiZJ57-mUUR1DQKcN7kNHCHfq3dM/edit?usp=sharing',
+                details: 'Print this document in A3 format.'}
+            ],
+            images: [{}],
+            updatePackages: [{
+                date: '2018-12-28',
+                name: '3.0.1 Release Candidate 1',
+                fileName: '3.0.1-RC1-r5.tar',
+                downloadUrl: 'https://github.com/CoderBotOrg/backend/releases/download/3.0.1-rc1/3.0.1-RC1-r5.tar',
+                details: 'Updates Backend to bc38f28, Frontend to CoderBotOrg/vue-app@5d03c94. New Python3 dependencies (included as installed wheels, in site-packages path): cachetools (py2-py3-any wheel). Mobile net tensorflow CNN Models (https://github.com/CoderBotOrg/system-install/blob/master/download_mobilenet_models.sh).'
+            },
+            ]
         }
     },
     methods: {}
