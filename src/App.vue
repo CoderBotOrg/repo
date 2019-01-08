@@ -1,6 +1,8 @@
 <template>
     <div id="page">
-        <h1> CoderBot files </h1>
+                        <div class="logo">CoderBot</div>
+<div class="subtitle">files repository</div>
+<br> <br>
         <el-row>
             <el-col :xs="{span:0}" :span="4" hidden-md-and-down>
                 <div class="grid-content"></div>
@@ -119,6 +121,26 @@ export default {
 }
 </script>
 <style>
+.logo {
+    font-size: 60px;
+    font-family: 'Overpass Mono';
+    font-weight: 600;
+    letter-spacing: -5px;
+    background-color: #070300;
+    color: transparent;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.25);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+.subtitle {
+    color: #606266;
+    font-size: 30px;
+    font-family: 'Overpass Mono';
+    font-weight: 600;
+    letter-spacing: -4px;
+    margin-top: -20px;
+}
 a {
     text-decoration: none;
     transition: ease-out;
