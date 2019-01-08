@@ -39,7 +39,7 @@
                                 {{ props.row.details }}
                             </template>
                         </el-table-column>
-                        <el-table-column prop="date" label="Data">
+                        <el-table-column prop="date" label="Data" width="140">
                         </el-table-column>
                         <el-table-column prop="name" label="Nome">
                         </el-table-column>
@@ -48,7 +48,7 @@
                                 <pre>{{scope.row.fileName}}</pre>
                             </template>
                         </el-table-column>
-                        <el-table-column prop="download" label="Download">
+                        <el-table-column prop="download" label="Download" width="90">
                             <template slot-scope="scope">
                                 <a :href="scope.row.downloadUrl" target="_blank" class="el-icon-download" style="font-size:32px"></a>
                             </template>
@@ -62,7 +62,7 @@
                                 {{ props.row.details }}
                             </template>
                         </el-table-column>
-                        <el-table-column prop="date" label="Data">
+                        <el-table-column prop="date" label="Data" width="140">
                         </el-table-column>
                         <el-table-column prop="name" label="Nome">
                         </el-table-column>
@@ -71,7 +71,7 @@
                                 <pre>{{scope.row.fileName}}</pre>
                             </template>
                         </el-table-column>
-                        <el-table-column prop="download" label="Download">
+                        <el-table-column prop="download" label="Download" width="90">
                             <template slot-scope="scope">
                                 <a :href="scope.row.downloadUrl" target="_blank" class="el-icon-download" style="font-size:32px"></a>
                             </template>
