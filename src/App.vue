@@ -115,17 +115,11 @@ export default {
                 details: 'Updates Backend to bc38f28, Frontend to CoderBotOrg/vue-app@5d03c94. New Python3 dependencies (included as installed wheels, in site-packages path): cachetools (py2-py3-any wheel). Pre-trained Mobile net tensorflow CNN Models.'
             },{
                 date: '2019-01-07',
-                name: '3.0.0 Release Candidate 1 - update system update',
+                name: '3.0.0 Release Candidate 1 - Fix update system',
                 fileName: '3.0.0-RC1-update.tar',
                 downloadUrl: 'https://drive.google.com/open?id=1pvbdY8eSA9NMa6DMOgf_sy-LkdxTwC8V',
                 details: 'Updates the system update scripts. IMPORTANT: apply after 3.0.0-RC1-r6.'
-            },{
-                date: '2018-12-28',
-                name: '3.0.1 Release Candidate 1',
-                fileName: '3.0.1-RC1-r5.tar',
-                downloadUrl: 'https://github.com/CoderBotOrg/backend/releases/download/3.0.1-rc1/3.0.1-RC1-r5.tar',
-                details: 'Updates Backend to bc38f28, Frontend to CoderBotOrg/vue-app@5d03c94. New Python3 dependencies (included as installed wheels, in site-packages path): cachetools (py2-py3-any wheel). Mobile net tensorflow CNN Models.'
-            },
+            }
             ]
         }
     },
