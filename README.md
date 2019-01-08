@@ -2,7 +2,7 @@
 
 A simple Vue 2.0 web page, providing CoderBot images and update packages details and download links. The website is live at [coderbot.org/repo](http://www.coderbot.org/repo/index.html).
 
-Uses [Element]() as UI library, [Axios]().
+Uses [Element](https://element.eleme.io/#/en-US) as UI library, [Axios](https://github.com/axios/axios).
 
 The development is done on the `dev` branch, since `master` is hosting the production build, served by GitHub pages (automatically deployed by an npm script, see `package.json`).
 
