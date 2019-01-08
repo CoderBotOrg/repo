@@ -118,7 +118,7 @@ export default {
                 name: '3.0.0 Release Candidate 1 - update system update',
                 fileName: '3.0.0-RC1-update.tar',
                 downloadUrl: 'https://drive.google.com/open?id=1pvbdY8eSA9NMa6DMOgf_sy-LkdxTwC8V',
-                details: 'Updates the system update scripts.'
+                details: 'Updates the system update scripts. IMPORTANT: apply after 3.0.0-RC1-r6.'
             },{
                 date: '2018-12-28',
                 name: '3.0.1 Release Candidate 1',
