@@ -132,7 +132,7 @@ export default {
             images: [{
                 date: '2018-12-16',
                 name: 'CoderBot base img 3',
-                fileName: 'Immagine completa',
+                fileName: 'coderbot_base_3.img.gz',
                 downloadUrl: 'https://drive.google.com/open?id=1ziG5-URYeoo9A_MfXBXsHTh7Ppv-VG1C',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 16 Dicembre.'
             }],
