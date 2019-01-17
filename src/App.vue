@@ -79,6 +79,29 @@
                             </template>
                         </el-table-column>
                     </el-table>
+                    <br><br>
+                    <h3>Full SD Images</h3>
+                    <el-table :data="images" style="width: 100%">
+                        <el-table-column type="expand">
+                            <template slot-scope="props">
+                                {{ props.row.details }}
+                            </template>
+                        </el-table-column>
+                        <el-table-column prop="date" label="Data" width="140">
+                        </el-table-column>
+                        <el-table-column prop="name" label="Nome">
+                        </el-table-column>
+                        <el-table-column prop="fileName" label="File">
+                            <template slot-scope="scope">
+                                <pre>{{scope.row.fileName}}</pre>
+                            </template>
+                        </el-table-column>
+                        <el-table-column prop="download" label="Download" width="90">
+                            <template slot-scope="scope">
+                                <a :href="scope.row.downloadUrl" target="_blank" class="el-icon-download" style="font-size:32px"></a>
+                            </template>
+                        </el-table-column>
+                    </el-table>
                 </div>
             </el-col>
             <el-col :xs="{span:0}" :span="4" hidden-md-and-down>
@@ -106,7 +129,13 @@ export default {
                 downloadUrl: 'https://docs.google.com/presentation/d/19ihXcSqUKD1YsvXHiZJ57-mUUR1DQKcN7kNHCHfq3dM/edit?usp=sharing',
                 details: 'Print this document in A3 format.'}
             ],
-            images: [{}],
+            images: [{
+                date: '2018-12-16',
+                name: 'CoderBot base img 3',
+                fileName: 'Immagine completa',
+                downloadUrl: 'https://drive.google.com/open?id=1ziG5-URYeoo9A_MfXBXsHTh7Ppv-VG1C',
+                details: 'Contiene l\'intera immagine con tutto il software aggiornato al 16 Dicembre.'
+            }],
             updatePackages: [{
                 date: '2019-01-07',
                 name: '3.0.0 Release Candidate 1',
