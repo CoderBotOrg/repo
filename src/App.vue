@@ -130,13 +130,13 @@ export default {
                 details: 'Print this document in A3 format.'}
             ],
             images: [{
-                date: '2018-12-16',
-                name: 'CoderBot base img 3',
-                fileName: 'coderbot_base_3.img.gz',
-                downloadUrl: 'https://drive.google.com/open?id=1ziG5-URYeoo9A_MfXBXsHTh7Ppv-VG1C',
-                details: 'Contiene l\'intera immagine con tutto il software aggiornato al 16 Dicembre.'
+                date: '2019-01-24',
+                name: 'CoderBot base image 3.0 RC',
+                fileName: 'coderbot_3_0_RC_20190124.img.gz',
+                downloadUrl: 'https://drive.google.com/open?id=1d6oDsxrznGD5mZ4pVYsUMeo1883pBsNa',
+                details: 'Contiene l\'intera immagine con tutto il software aggiornato al 24 Gennaio.'
             }],
-            updatePackages: [{
+            updatePackages: [/*{
                 date: '2019-01-07',
                 name: '3.0.0 Release Candidate 1',
                 fileName: '3.0.0-RC1-r6.tar',
@@ -148,7 +148,7 @@ export default {
                 fileName: '3.0.0-RC1-update.tar',
                 downloadUrl: 'https://drive.google.com/open?id=1pvbdY8eSA9NMa6DMOgf_sy-LkdxTwC8V',
                 details: 'Updates the system update scripts. IMPORTANT: apply after 3.0.0-RC1-r6.'
-            }
+            }*/
             ]
         }
     },
