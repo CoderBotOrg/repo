@@ -133,7 +133,7 @@ export default {
                 date: '2019-01-24',
                 name: 'CoderBot base image 3.0 RC',
                 fileName: 'coderbot_3_0_RC_20190124.img.gz',
-                downloadUrl: 'https://drive.google.com/open?id=1d6oDsxrznGD5mZ4pVYsUMeo1883pBsNa',
+                downloadUrl: 'https://drive.google.com/open?id=1OcdLGPcuL5HkHrk3HeqBnImal_ng5GjA',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 24 Gennaio.'
             }],
             updatePackages: [/*{
