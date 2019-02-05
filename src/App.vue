@@ -130,11 +130,11 @@ export default {
                 details: 'Print this document in A3 format.'}
             ],
             images: [{
-                date: '2019-01-24',
-                name: 'CoderBot base image 3.0 RC',
-                fileName: 'coderbot_3_0_RC_20190124.img.gz',
-                downloadUrl: 'https://drive.google.com/open?id=1OcdLGPcuL5HkHrk3HeqBnImal_ng5GjA',
-                details: 'Contiene l\'intera immagine con tutto il software aggiornato al 24 Gennaio.'
+                date: '2019-02-03',
+                name: 'CoderBot base image 3.0 GA',
+                fileName: 'coderbot_3_0_GA_20190203.img.gz',
+                downloadUrl: 'https://drive.google.com/open?id=17GYtXryAxE2Db88K_6adBmteGNMvVGKZ',
+                details: 'Contiene l\'intera immagine con tutto il software aggiornato al 3 Febbraio.'
             }],
             updatePackages: [/*{
                 date: '2019-01-07',
