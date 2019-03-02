@@ -1,7 +1,7 @@
 <template>
     <div id="page">
                         <div class="logo">CoderBot</div>
-<div class="subtitle">files repository</div>
+<div class="subtitle">archivio aggiornamenti</div>
 <br> <br>
         <el-row>
             <el-col :xs="{span:0}" :span="4" hidden-md-and-down>
@@ -33,8 +33,8 @@
                     <br><br>
                 -->
                     
-                    <h3>Update Packages</h3>
-                    <p style="color:#606266"> These packages must be downloaded and then uploaded to the CoderBot in <i>Settings -> Update</i>. </p>
+                    <h3>Pacchetti di aggiornamento</h3>
+                    <p style="color:#606266"> Questi pacchetti devono essere scaricati localmente e poi caricati sull'applicazione di CoderBot in <i> Impostazioni -> Aggiornamenti </i></p>
                     <el-table :data="updatePackages" style="width: 100%">
                         <el-table-column type="expand">
                             <template slot-scope="props">
@@ -57,7 +57,7 @@
                         </el-table-column>
                     </el-table>
                     <br><br>
-                    <h3>Miscellanea</h3>
+                    <h3>Varie</h3>
                     <el-table :data="misc" style="width: 100%">
                         <el-table-column type="expand">
                             <template slot-scope="props">
@@ -80,7 +80,8 @@
                         </el-table-column>
                     </el-table>
                     <br><br>
-                    <h3>Full SD Images</h3>
+                    <h3>Immagini SD complete</h3>
+                    <p style="color:#606266"> Queste immagini permettono il ripristino completo della micro SD. Devono essere <i> flashate </i> sulla microSD utilizzata su CoderBot.</p>
                     <el-table :data="images" style="width: 100%">
                         <el-table-column type="expand">
                             <template slot-scope="props">
@@ -109,7 +110,7 @@
             </el-col>
         </el-row>
         <br>
-        <small style="color:#909399"> &copy; 2019 CoderBot contributors. <a href="https://github.com/coderbotorg/repo"> Source </a> </small>
+        <small style="color:#909399"> &copy; 2019 <a href="https://coderbot.org" target="_blank">CoderBot</a> contributors. <a href="https://github.com/coderbotorg/repo" target="_blank"> Source</a>.</small>
     </div>
 </template>
 <script>
