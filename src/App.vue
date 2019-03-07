@@ -119,16 +119,16 @@ export default {
         return {
             misc: [{
                 date: '2019-1-8',
-                name: 'AR program',
+                name: 'Programma tag AR',
                 fileName: 'program_demo_ar.json',
                 downloadUrl: 'https://drive.google.com/open?id=1V3jsb6fR3ReF2SH_G0UieWPrBf_T8QoW',
-                details: 'This file must be imported from the CoderBot software. Download this file, then on CoderBot: Program -> Import and select the downloaded file.'
+                details: "Questo file deve essere importato dall'applicazione di CoderBot. Scaricarlo e poi su Coderbot: Programma -> Importa e seleziona il file appena scaricato."
             },{
                 date: '2019-1-8',
-                name: 'Printable AR Tags',
+                name: 'AT tag stampabili',
                 fileName: 'AR-Tags.pdf',
                 downloadUrl: 'https://docs.google.com/presentation/d/19ihXcSqUKD1YsvXHiZJ57-mUUR1DQKcN7kNHCHfq3dM/edit?usp=sharing',
-                details: 'Print this document in A3 format.'}
+                details: 'Stampare in formato A3 (consigliato)'}
             ],
             images: [{
                 date: '2018-12-16',
