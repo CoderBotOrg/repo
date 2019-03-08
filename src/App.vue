@@ -32,7 +32,7 @@
                     </el-table>
                     <br><br>
                 -->
-                    
+                    <template v-if="updatePackages.length > 0"> AA 
                     <h3>Pacchetti di aggiornamento</h3>
                     <p style="color:#606266"> Questi pacchetti devono essere scaricati localmente e poi caricati sull'applicazione di CoderBot in <i> Impostazioni -> Aggiornamenti </i></p>
                     <el-table :data="updatePackages" style="width: 100%">
@@ -57,6 +57,8 @@
                         </el-table-column>
                     </el-table>
                     <br><br>
+                    </template>
+                    
                     <h3>Varie</h3>
                     <el-table :data="misc" style="width: 100%">
                         <el-table-column type="expand">
