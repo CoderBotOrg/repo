@@ -139,7 +139,7 @@ export default {
                 downloadUrl: 'https://drive.google.com/open?id=17GYtXryAxE2Db88K_6adBmteGNMvVGKZ',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 3 Febbraio.'
             },{
-                date: '20120-04-12',
+                date: '2020-04-12',
                 name: 'CoderBot base image 4.0 alpha',
                 fileName: 'coderbot_4_0_alpha_20200312.img.gz',
                 downloadUrl: 'https://drive.google.com/open?id=1j3Nq1zYpVroeXLPYK-BpaAuY3rUZJ2ii',
