@@ -145,7 +145,13 @@ export default {
                 downloadUrl: 'https://drive.google.com/file/d/1QvLbWUgZjFBgNz6DWG8KuLA9lRPBuXr6/view?usp=sharing',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 3 Agosto. [versione definitiva per CoderBot con HW v5.0]'
             }],
-            updatePackages: [/*{
+            updatePackages: [{
+                date: '2022-01-02',
+                name: 'Add Music and IO extensions',
+                fileName: 'coderbot_update_4_1_0.tar',
+                downloadUrl: 'https://drive.google.com/uc?id=1w0o99MWpNyYiWrceET6gFCv69vgrcyS6&export=download',
+                details: 'Installs Music and IO extensions'
+            }/*{
                 date: '2019-01-07',
                 name: '3.0.0 Release Candidate 1',
                 fileName: '3.0.0-RC1-r6.tar',
