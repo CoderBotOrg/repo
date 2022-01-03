@@ -139,11 +139,11 @@ export default {
                 downloadUrl: 'https://drive.google.com/open?id=17GYtXryAxE2Db88K_6adBmteGNMvVGKZ',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 3 Febbraio.'
             },{
-                date: '2020-04-12',
-                name: 'CoderBot base image 4.0 alpha',
-                fileName: 'coderbot_4_0_alpha_20200312.img.gz',
-                downloadUrl: 'https://drive.google.com/open?id=1j3Nq1zYpVroeXLPYK-BpaAuY3rUZJ2ii',
-                details: 'Contiene l\'intera immagine con tutto il software aggiornato al 12 Aprile. [versione alpha per sviluppo]'
+                date: '2020-08-03',
+                name: 'CoderBot base image 4.0 GA',
+                fileName: 'coderbot_4_0_GA_20200803.img.gz',
+                downloadUrl: 'https://drive.google.com/file/d/1QvLbWUgZjFBgNz6DWG8KuLA9lRPBuXr6/view?usp=sharing',
+                details: 'Contiene l\'intera immagine con tutto il software aggiornato al 3 Agosto. [versione definitiva per CoderBot con HW v5.0]'
             }],
             updatePackages: [/*{
                 date: '2019-01-07',
