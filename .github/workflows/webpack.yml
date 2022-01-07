@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [14.x]
     
     steps:
     - uses: actions/checkout@v2
@@ -23,6 +23,13 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Build
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}    
       run: |
         npm install
+        npm run build        
+        git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        git config --global user.email "info@coderbot.org"
+        git config --global user.name "coderbot"
         npm run deploy
+
