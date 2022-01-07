@@ -9,13 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-  on:
-    push:
-      branches:
-        - dev
-    pull_request:
-      branches:
-        - dev
 
     strategy:
       matrix:
