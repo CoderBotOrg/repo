@@ -136,34 +136,28 @@ export default {
                 date: '2019-02-03',
                 name: 'CoderBot base image 3.0 GA',
                 fileName: 'coderbot_3_0_GA_20190203.img.gz',
-                downloadUrl: 'https://drive.google.com/open?id=17GYtXryAxE2Db88K_6adBmteGNMvVGKZ',
+                downloadUrl: 'https://drive.google.com/uc?id=17GYtXryAxE2Db88K_6adBmteGNMvVGKZ&export=download',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 3 Febbraio.'
             },{
                 date: '2020-08-03',
                 name: 'CoderBot base image 4.0 GA',
                 fileName: 'coderbot_4_0_GA_20200803.img.gz',
-                downloadUrl: 'https://drive.google.com/file/d/1QvLbWUgZjFBgNz6DWG8KuLA9lRPBuXr6/view?usp=sharing',
+                downloadUrl: 'https://drive.google.com/uc?id=1QvLbWUgZjFBgNz6DWG8KuLA9lRPBuXr6&export=download',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 3 Agosto. [versione definitiva per CoderBot con HW v5.0]'
+            },{
+                date: '2022-01-02',
+                name: 'CoderBot base image 4.1 GA',
+                fileName: 'coderbot_4_1_GA_20220102.img.gz',
+                downloadUrl: 'https://drive.google.com/uc?id=1-hlXGKEZrUaLakXzBZ9G1aPkw_CCmkfS&export=download',
+                details: 'Contiene l\'intera immagine con tutto il software aggiornato al 2 Gennaio. [versione definitiva per CoderBot con HW v5.0]'
             }],
             updatePackages: [{
                 date: '2022-01-02',
                 name: 'Add Music and IO extensions',
                 fileName: 'coderbot_update_4_1_0.tar',
-                downloadUrl: 'https://drive.google.com/uc?id=1w0o99MWpNyYiWrceET6gFCv69vgrcyS6&export=download',
+                downloadUrl: 'https://drive.google.com/uc?id=1QfhikwaMGniCZ7Bp-3Dd7VQh12ujomJd&export=download',
                 details: 'Installs Music and IO extensions'
-            }/*{
-                date: '2019-01-07',
-                name: '3.0.0 Release Candidate 1',
-                fileName: '3.0.0-RC1-r6.tar',
-                downloadUrl: 'https://drive.google.com/open?id=1IsEs3JTckwukp7J7rOrZzG_OWKGIr-3-',
-                details: 'Updates Backend to bc38f28, Frontend to CoderBotOrg/vue-app@5d03c94. New Python3 dependencies (included as installed wheels, in site-packages path): cachetools (py2-py3-any wheel). Pre-trained Mobile net tensorflow CNN Models.'
-            },{
-                date: '2019-01-07',
-                name: '3.0.0 Release Candidate 1 - Fix update system',
-                fileName: '3.0.0-RC1-update.tar',
-                downloadUrl: 'https://drive.google.com/open?id=1pvbdY8eSA9NMa6DMOgf_sy-LkdxTwC8V',
-                details: 'Updates the system update scripts. IMPORTANT: apply after 3.0.0-RC1-r6.'
-            }*/
+            }
             ]
         }
     },

@@ -12,9 +12,10 @@
     "build-dev-webpack": "webpack -d --mode development",
     "build-prod-webpack": "webpack -p",
     "build-copy-index": "npx copyfiles index.html dist/",
+    "build-copy-cname": "npx copyfiles -f src/CNAME dist/",
     "serve-prod": "npx run-s build-prod serve-prod-server",
     "serve-prod-server": "npx ws -p 8080 -d dist -z",
-    "deploy": "npx run-s build-prod deploy-gh-pages",
+    "deploy": "npx run-s build-prod build-copy-cname deploy-gh-pages",
     "deploy-gh-pages": "npx gh-pages -d dist -b master"
   },
   "dependencies": {
