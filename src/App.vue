@@ -32,7 +32,7 @@
                     </el-table>
                     <br><br>
                 -->
-                    <template v-if="updatePackages.length > 0"> AA 
+                    <template v-if="updatePackages.length > 0">
                     <h3>Pacchetti di aggiornamento</h3>
                     <p style="color:#606266"> Questi pacchetti devono essere scaricati localmente e poi caricati sull'applicazione di CoderBot in <i> Impostazioni -> Aggiornamenti </i></p>
                     <el-table :data="updatePackages" style="width: 100%">
@@ -112,7 +112,7 @@
             </el-col>
         </el-row>
         <br>
-        <small style="color:#909399"> &copy; 2019 <a href="https://coderbot.org" target="_blank">CoderBot</a> contributors. <a href="https://github.com/coderbotorg/repo" target="_blank"> Source</a>.</small>
+        <small style="color:#909399"> &copy; 2019 - 2022<a href="https://coderbot.org" target="_blank">CoderBot</a> contributors. <a href="https://github.com/coderbotorg/repo" target="_blank"> Source</a>.</small>
     </div>
 </template>
 <script>
