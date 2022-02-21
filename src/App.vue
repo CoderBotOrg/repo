@@ -145,10 +145,10 @@ export default {
                 downloadUrl: 'https://drive.google.com/uc?id=1QvLbWUgZjFBgNz6DWG8KuLA9lRPBuXr6&export=download',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 3 Agosto. [versione definitiva per CoderBot con HW v5.0]'
             },{
-                date: '2022-01-02',
-                name: 'CoderBot base image 4.1 GA',
-                fileName: 'coderbot_4_1_GA_20220102.img.gz',
-                downloadUrl: 'https://drive.google.com/uc?id=1-hlXGKEZrUaLakXzBZ9G1aPkw_CCmkfS&export=download',
+                date: '2022-02-22',
+                name: 'CoderBot base image 4.1.1 GA',
+                fileName: 'coderbot_4_1_1_GA_20220222.img.gz',
+                downloadUrl: 'https://drive.google.com/uc?id=1V6_hBwlnULJIROcIiuBGO9xUTAcF6eNu&export=download',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 2 Gennaio. [versione definitiva per CoderBot con HW v5.0]'
             }],
             updatePackages: [{
