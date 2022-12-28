@@ -145,24 +145,24 @@ export default {
                 downloadUrl: 'https://drive.google.com/uc?id=1QvLbWUgZjFBgNz6DWG8KuLA9lRPBuXr6&export=download',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 3 Agosto. [versione definitiva per CoderBot con HW v5.0]'
             },{
-                date: '2022-02-22',
-                name: 'CoderBot base image 4.1.1 GA',
-                fileName: 'coderbot_4_1_1_GA_20220222.img.gz',
-                downloadUrl: 'https://drive.google.com/uc?id=1V6_hBwlnULJIROcIiuBGO9xUTAcF6eNu&export=download',
-                details: 'Contiene l\'intera immagine con tutto il software aggiornato al 2 Gennaio. [versione aggiornata per CoderBot con HW v5.0]'
-            },{
                 date: '2022-07-08',
                 name: 'CoderBot base image 4.2 GA',
                 fileName: 'coderbot_4_2_GA_20220708.img.gz',
                 downloadUrl: 'https://drive.google.com/uc?id=1skSY94jT7eYM0qdJq3Oe8Z8bzQ0XWNsv&export=download',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 8 Luglio. [versione definitiva per CoderBot con HW v5.0]'
+            },{
+                date: '2022-11-19',
+                name: 'CoderBot base image 5.0 RC',
+                fileName: 'coderbot_5_0_RC_20221119.img.zip',
+                downloadUrl: 'https://drive.google.com/uc?id=1WSQm_vdFbegN7Pbsc46BcQAxhg0zyyBV&export=download',
+                details: 'Contiene l\'intera immagine con tutto il software aggiornato al 19 Novembre. [versione aggiornata per CoderBot con HW v5.0]'
             }],
             updatePackages: [{
                 date: '2022-01-02',
                 name: 'Add Music and IO extensions',
                 fileName: 'coderbot_update_4_1_0.tar',
                 downloadUrl: 'https://drive.google.com/uc?id=1QfhikwaMGniCZ7Bp-3Dd7VQh12ujomJd&export=download',
-                details: 'Installs Music and IO extensions'
+                details: 'Installa estensioni Music and IO. Non necessaria da v5.0 in avanti.'
             }
             ]
         }
