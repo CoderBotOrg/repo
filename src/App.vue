@@ -156,6 +156,12 @@ export default {
                 fileName: 'coderbot_5_0_RC_20221119.img.zip',
                 downloadUrl: 'https://drive.google.com/uc?id=1WSQm_vdFbegN7Pbsc46BcQAxhg0zyyBV&export=download',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 19 Novembre. [versione aggiornata per CoderBot con HW v5.0]'
+            },{
+                date: '2024-06-24',
+                name: 'CoderBot base image 5.1.1 GA',
+                fileName: 'coderbot_5_1_1_GA_20240624.img.zip',
+                downloadUrl: 'https://drive.google.com/uc?id=17x5reaUGQU_bHWWrbL2k9DLwfEs7Zl6I&export=download',
+                details: 'Contiene l\'intera immagine con tutto il software aggiornato al 24 Giugno. [versione aggiornata per CoderBot con HW v5.0 e v4.0]'
             }],
             updatePackages: [{
                 date: '2022-01-02',
