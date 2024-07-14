@@ -160,14 +160,14 @@ export default {
                 date: '2024-07-14',
                 name: 'CoderBot base image 5.1.2 GA',
                 fileName: 'coderbot_5_1_2_GA_20240624.img.zip',
-                downloadUrl: 'https://drive.google.com/uc?id=15IAAR6_8WsPmfCE_s8OHNmZTv8QIC7se&export=download',
+                downloadUrl: 'https://drive.google.com/uc?id=1MpL-XK2cugh_0tPQgTAjDbfjUa0AByD0&export=download',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 14 Luglio. [versione aggiornata per CoderBot con HW v5.0 e v4.0]'
             }],
             updatePackages: [{
                 date: '2022-01-02',
                 name: 'Add Music and IO extensions',
                 fileName: 'coderbot_update_4_1_0.tar',
-                downloadUrl: 'https://drive.google.com/uc?id=1MpL-XK2cugh_0tPQgTAjDbfjUa0AByD0&export=download',
+                downloadUrl: 'https://drive.google.com/uc?id=1QfhikwaMGniCZ7Bp-3Dd7VQh12ujomJd&export=download',
                 details: 'Installa estensioni Music and IO. Non necessaria da v5.0 in avanti.'
             }
             ]
