@@ -167,7 +167,7 @@ export default {
                 date: '2022-01-02',
                 name: 'Add Music and IO extensions',
                 fileName: 'coderbot_update_4_1_0.tar',
-                downloadUrl: 'https://drive.google.com/uc?id=1QfhikwaMGniCZ7Bp-3Dd7VQh12ujomJd&export=download',
+                downloadUrl: 'https://drive.google.com/uc?id=1MpL-XK2cugh_0tPQgTAjDbfjUa0AByD0&export=download',
                 details: 'Installa estensioni Music and IO. Non necessaria da v5.0 in avanti.'
             }
             ]
