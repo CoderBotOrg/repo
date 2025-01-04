@@ -166,7 +166,7 @@ export default {
                 date: '2025-01-04',
                 name: 'CoderBot base image 5.2.0 GA',
                 fileName: 'coderbot_5_2_0_GA_20250104.img.zip',
-                downloadUrl: 'https://drive.google.com/uc?id=1d2tA_62M0Zh_WyNqB6xUrypiORB8SU1J&export=download',
+                downloadUrl: 'https://drive.google.com/uc?id=1D09vAYJHMxg25Lona2eyYIk_KEuBBfAf&export=download',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 04 Gennaio. [include editor web Python oltre a Blockly]'
             }],
             updatePackages: [{
