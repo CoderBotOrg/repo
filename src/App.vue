@@ -162,6 +162,12 @@ export default {
                 fileName: 'coderbot_5_1_2_GA_20240624.img.zip',
                 downloadUrl: 'https://drive.google.com/uc?id=1MpL-XK2cugh_0tPQgTAjDbfjUa0AByD0&export=download',
                 details: 'Contiene l\'intera immagine con tutto il software aggiornato al 14 Luglio. [versione aggiornata per CoderBot con HW v5.0 e v4.0]'
+            },{
+                date: '2025-01-04',
+                name: 'CoderBot base image 5.2.0 GA',
+                fileName: 'coderbot_5_2_0_GA_20250104.img.zip',
+                downloadUrl: 'https://drive.google.com/uc?id=15IAAR6_8WsPmfCE_s8OHNmZTv8QIC7se&export=download',
+                details: 'Contiene l\'intera immagine con tutto il software aggiornato al 04 Gennaio. [include editor web Python oltre a Blockly]'
             }],
             updatePackages: [{
                 date: '2022-01-02',
